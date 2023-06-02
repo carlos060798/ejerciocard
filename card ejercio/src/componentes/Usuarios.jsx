@@ -6,7 +6,7 @@ function Usuarios({ usuarios }) { // Asegúrate de desestructurar el objeto prop
   console.log(typeof usuarios);
   return (
     <>
-      <div className="container">
+      <div className="container d-flex justify-content-center">
         {usuarios.map(usuario => (
          // eslint-disable-next-line react/jsx-key
          <Usuario  usuario={usuario} />
